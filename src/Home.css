@@ -1,0 +1,407 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 80%;
+}
+
+.inputHome {
+  padding: 30px;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.inputHome:focus {
+  box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+}
+
+.labelHome {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 28.7rem;
+}
+
+a {
+  background-color: #910505;
+  color: white;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 3px;
+  width: 299px;
+  text-decoration: none;
+}
+
+@media screen and (max-width:2600px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    height: 84%;
+
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 32rem;
+    font-size: 1.8rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 480px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 53px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 479px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:1443px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    height: 84%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 29.1rem;
+    font-size: 1.8rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 480px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 53px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 479px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:1195px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    height: 84%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 21.5rem;
+    font-size: 1.8rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 480px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 53px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 479px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:1030px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 87%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 17.5rem;
+    font-size: 1.6rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 450px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 449px;
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 11.5rem;
+    font-size: 1.4rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 380px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 379px;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+}
+
+
+
+
+@media screen and (max-width:430px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 3.5rem;
+    font-size: 1.1rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 300px;
+    height: 42px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 299px;
+    font-size: 21px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width:380px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 299px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width:330px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .labelHome {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 4px;
+    font-size: 0.9rem;
+  }
+
+  .inputHome {
+    padding: 6px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .inputHome:focus {
+    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
+  }
+
+  a {
+    background-color: #910505;
+    color: white;
+    height: 38px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    width: 299px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+}

@@ -178,51 +178,6 @@ a {
   }
 }
 
-@media screen and (max-width:1195px) {
-  .Home {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 14px;
-    height: 84%;
-  }
-
-  .labelHome {
-    display: flex;
-    align-self: flex-start;
-    margin-left: 21.5rem;
-    font-size: 1.8rem;
-  }
-
-  .inputHome {
-    padding: 6px;
-    width: 480px;
-    height: 50px;
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-  }
-
-  .inputHome:focus {
-    box-shadow: inset 0px 0.5px 3px rgb(20, 20, 20), 0px 0.5px 3px black;
-  }
-
-  a {
-    background-color: #910505;
-    color: white;
-    height: 53px;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 3px;
-    width: 479px;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-}
 
 @media screen and (max-width:1030px) {
   .Home {
